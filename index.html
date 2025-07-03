@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website - MP3 Player</title>
+    <!-- Embedding css style directly without link tag -->
+    <style>
+        body {
+            font-family: "Times New Roman", Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            color: #007acc;
+            background-color: #3e3e42;
+        }
+        audio {
+            margin: 20px;
+            width: 80%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Try playing one of the following audio file:</h1>
+    
+    <p>Notification 1</p>
+    <audio controls>
+        <source src="assets/notification1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p>UI Mouse Click 1</p>
+    <audio controls>
+        <source src="assets/uiMouseClick1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
